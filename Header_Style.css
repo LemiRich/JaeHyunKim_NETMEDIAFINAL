@@ -1,0 +1,22 @@
+.pageHead {
+    width: 100%;
+    margin: 0 auto;
+}
+
+header {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header > h2 {
+	margin-left: 20px;
+    margin-bottom: 10px;
+    align-items: center;
+
+    font-size: 40px;
+
+    z-index: 100;
+}

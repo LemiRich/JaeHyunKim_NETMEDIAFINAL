@@ -1,0 +1,42 @@
+/* .popupDiv{
+    display: none;
+    position: absolute;
+
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+
+    background-color: white;
+    color: black;
+
+    padding: 20px;
+    
+    border: 1px solid black;
+
+    z-index: 9999;
+} */
+
+.popupDiv{
+    display: none;
+    position: fixed;
+
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+
+    width: 400px;
+    height: 600px;
+
+    background-color: white;
+    color: black;
+
+    padding: 20px;
+    
+    border: 1px solid black;
+
+    z-index: 9999;
+
+    overflow-y: auto;
+}

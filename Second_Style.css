@@ -1,0 +1,42 @@
+html, body{
+    background-color: black;
+    color: aliceblue;
+
+    font-family: 'Indie Flower', cursive;
+    text-align: center;
+
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.div_float{
+    width: 150px;
+    height: 150px;
+    background-color: transparent;
+    position: absolute;
+
+    object-fit: cover;
+}
+
+footer {
+    width: 100%;
+    height: 30px;
+    bottom: 0px;
+    position: absolute;
+    padding-top: 15px;
+    font-size: 11px;
+}
+
+footer p {
+    margin-top: 0; margin-bottom: 0;   
+}
+
+footer p span {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+ul{
+    text-align: left;
+}
